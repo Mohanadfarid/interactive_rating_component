@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- the link for the fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <!-- Rating state start -->
+  <div class="container">
+
+    <div class="r_container">
+
+      <div class="img_section_container">
+        <div class="img_container"><img src="images/icon-star.svg" alt="star" id="img"></div>
+      </div>
+     
+      <div id="headder_container">
+         <p id="p1"> How did we do?</p>
+      </div>
+     
+      <div>
+        <p id="p2">
+          Please let us know how we did with your support request. All feedback is appreciated 
+          to help us improve our offering!
+        </p>
+      </div>
+    
+      <ul id="rating_container"> 
+        <li><button class="rate">1</button> </li>
+        <li><button class="rate">2</button></li>
+        <li><button class="rate" >3</button></li>
+        <li><button class="rate">4</button></li>
+        <li><button class="rate">5</button></li>
+      </ul> 
+  
+      <button id="submit_container">S U B M I T</button>
+    
+    </div>
+  
+  </div>
+
+  <!-- Rating state end -->
+<br><br><br>
+  <!-- Thank you state start -->
+
+  You selected <!-- Add rating here --> out of 5
+
+  
+
+ 
+  <!-- Thank you state end -->
+<br><br><br>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Mohanad Farid</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
